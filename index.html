@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dev Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- top section -->
+  <div class="intro py-3 text-center">
+    <div class="hero container">
+      <h1 class="display-2 ">Are you a </br><span id="super">SUPER</span> </br>DEVELOPER?</h2>
+      <img src="./images/super-dev.PNG" alt="">
+    </div>
+  </div>
+
+   <!-- result section -->
+   <div class="result py-4 d-none  text-center">
+    <div class="container lead">
+      <p>You are <span class=" display-1 p-3 " id="resultSpan">0%</span> super developer</p>
+    </div>
+  </div>
+
+
+  <!-- quiz section -->
+  <div class="quiz py-4 ">
+    <div class="container">
+      <h2 class="my-5 text-white">On with the questions...</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. Your favorite drink?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="A" checked>
+            <label class="form-check-label">Tea</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">Coffee</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Favorite code editor?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="A" checked>
+            <label class="form-check-label">Sublime</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label">VS code</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. Your best coding work is done..</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A" checked>
+            <label class="form-check-label">During business hours</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">At 3 A.M </label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. When solving a problem?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="A" checked>
+            <label class="form-check-label">Fix it alone</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">Go to Stack Overflow</label>
+          </div>
+        </div>
+        <div class="my-5">
+            <p class="lead font-weight-normal">5. Favorite array method?</p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q5" value="A" checked>
+              <label class="form-check-label">forEach()</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q5" value="B">
+              <label class="form-check-label">slice()</label>
+            </div>
+          </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-light"> 
+        </div>
+      </form>
+
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
